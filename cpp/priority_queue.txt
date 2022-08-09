@@ -1,0 +1,22 @@
+
+		Capacity
+		
+size()		Returns the number of elements in the priority_queue.
+empty() 	Returns whether the container is empty.	
+
+		Element Access
+top		Returns the first element of the priority_queue
+
+		Modifiers
+		
+push()	It push the elements into a priority_queue from the back
+pop()	It is used to pop or remove elements from a list from the front.
+insert()	It inserts new elements before the element at the specified position
+erase()		It is used to remove elements from a container from the specified position or range.
+swap()		It is used to swap the contents of one priority_queue with another priority_queue of same type. Sizes may differ.
+clear()		It is used to remove all the elements of the priority_queue container
+emplace()	It extends the container by inserting new element at position
+emplace_back()	It is used to insert a new element into the priority_queue container, the new element is added to the end of the priority_queue
+emplace_front()	It is used to insert a new element into the list container, the new element is added from the front of the priority_queue
+
+

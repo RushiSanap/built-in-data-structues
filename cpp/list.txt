@@ -1,0 +1,47 @@
+		Iterators
+		
+begin()		Returns an iterator pointing to the first element in the list
+end()		Returns an iterator pointing to the theoretical element that follows the last element in the list
+rbegin() 	Returns a reverse iterator pointing to the last element in the list (reverse beginning). It moves from last to first element
+rend() 		Returns a reverse iterator pointing to the theoretical element preceding the first element in the list (considered as reverse end)
+cbegin()	Returns a constant iterator pointing to the first element in the list.
+cend()		Returns a constant iterator pointing to the theoretical element that follows the last element in the list.
+crbegin()	Returns a constant reverse iterator pointing to the last element in the list (reverse beginning). It moves from last to first element
+crend()		Returns a constant reverse iterator pointing to the theoretical element preceding the first element in the list (considered as reverse end)
+
+
+		Capacity
+		
+size()		Returns the number of elements in the list.
+max_size()	Returns the maximum number of elements that the list can hold.
+resize(n) 	Resizes the container so that it contains ‘n’ elements.
+empty() 	Returns whether the container is empty.		
+
+		Element Access
+		
+front()		Returns a reference to the first element in the list
+back()		Returns a reference to the last element in the list		
+
+		Modifiers
+		
+assign()	It assigns new value to the list elements by replacing old ones
+push_back()	It push the elements into a list from the back
+push_front()	It push the elements into a list from the front
+pop_back()	It is used to pop or remove elements from a list from the back.
+pop_front()	It is used to pop or remove elements from a list from the front.
+insert()	It inserts new elements before the element at the specified position
+erase()		It is used to remove elements from a container from the specified position or range.
+swap()		It is used to swap the contents of one list with another list of same type. Sizes may differ.
+clear()		It is used to remove all the elements of the list container
+emplace()	It extends the container by inserting new element at position
+emplace_back()	It is used to insert a new element into the list container, the new element is added to the end of the list
+emplace_front()	It is used to insert a new element into the list container, the new element is added from the front of the list
+list merge()	Merges two sorted lists into one.
+list splice()	Used to transfer elements from one list to another.
+list unique()	Removes all duplicate consecutive elements from the list.
+sort()		Sorts the list in increasing order.
+reverse()	Reverses the list.
+
+		Operators
+
+

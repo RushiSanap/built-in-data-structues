@@ -1,0 +1,38 @@
+		Iterators
+		
+begin()		Returns an iterator pointing to the first element in the forward_list
+end()		Returns an iterator pointing to the theoretical element that follows the last element in the forward_list
+cbegin()	Returns a constant iterator pointing to the first element in the forward_list.
+cend()		Returns a constant iterator pointing to the theoretical element that follows the last element in the forward_list.
+
+		Capacity
+		
+size()		Returns the number of elements in the forward_list.
+max_size()	Returns the maximum number of elements that the forward_list can hold.
+resize(n) 	Resizes the container so that it contains ‘n’ elements.
+empty() 	Returns whether the container is empty.		
+
+		Element Access
+		
+front()		Returns a reference to the first element in the forward_list
+back()		Returns a reference to the last element in the forward_list		
+
+		Modifiers
+		
+assign()	It assigns new value to the forward_list elements by replacing old ones
+push_front()	It push the elements into a forward_list from the front
+pop_front()	It is used to pop or remove elements from a forward_list from the front.
+insert_after()	This function gives us a choice to insert elements at any position in forward forward_list. The arguments in this function are copied at the desired position.
+swap()		It is used to swap the contents of one forward_list with another forward_list of same type. Sizes may differ.
+clear()		It is used to remove all the elements of the forward_list container
+emplace_after()	This function also does the same operation as the above function but the elements are directly made without any copy operation.
+ erase_after()	This function is used to erase elements from a particular position in the forward forward_list. There are two varients of ‘erase after’ function.
+emplace_front()	It is used to insert a new element into the forward_list container, the new element is added from the front of the forward_list
+remove()	This function removes the particular element from the forward forward_list mentioned in its argument.
+remove_if()	This function removes according to the condition in its argument.
+unique()	Removes all consecutive duplicate elements from the forward_list. It uses a binary predicate for comparison.
+reverse()	Reverses the forward_list.
+
+		Operators
+
+

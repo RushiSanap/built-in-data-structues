@@ -1,0 +1,16 @@
+		Capacity
+		
+size()		Returns the number of elements in the queue.
+empty() 	Returns whether the container is empty.	
+
+		Element Access
+
+top()		Returns a reference to the top most element of the stack
+
+		Modifiers
+		
+push()		It push the elements to the top of the stack.
+pop()		It is used to pop or removes from the top of the stack.
+swap()		It is used to swap the contents of one queue with another queue of same type.
+emplace()	It extends the container by inserting new element at position
+

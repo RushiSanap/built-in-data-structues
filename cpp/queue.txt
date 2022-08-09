@@ -1,0 +1,17 @@
+		Capacity
+		
+size()		Returns the number of elements in the queue.
+empty() 	Returns whether the container is empty.	
+
+		Element Access
+		
+front()		Returns a reference to the first element in the queue
+back()		Returns a reference to the last element in the queue		
+
+		Modifiers
+		
+push()		It push the elements into a queue from the back.
+pop()		It is used to pop or remove elements from a queue from the front.
+swap()		It is used to swap the contents of one queue with another queue of same type.
+emplace()	It extends the container by inserting new element at position
+
